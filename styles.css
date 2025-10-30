@@ -1,0 +1,147 @@
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+h1, h2 {
+    color: grey;
+}
+
+p {
+    color: maroon;
+}
+
+p.greentea {
+    color:green
+}
+
+p.raspberry {
+    color:lightblue
+}
+
+p#blueberry {
+    color:blue;
+}
+
+p.cranberry {
+    color:red;
+}
+/* styles/style.css */
+header { padding: 1rem 0; border-bottom: 1px solid #ddd; }
+
+/* Basic CSS Selectors */
+
+/* 1. Element selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. ID selector */
+#intro {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-left: 4px solid #00838f;
+}
+
+/* 3. Class selector */
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+/* 4. Universal selector */
+* {
+  box-sizing: border-box;
+}
+
+/* 5. Grouping selectors */
+h1, h2, h3 {
+  color: #2e7d32;
+}
+
+/* 6. Descendant selector */
+section p {
+  color: #444;
+}
+
+/* 7. Child selector */
+section > h2 {
+  text-decoration: underline;
+}
+
+/* 8. Adjacent sibling selector */
+h2 + p {
+  font-style: italic;
+}
+
+/* 9. Attribute selector */
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* 10. Pseudo-class selectors */
+a:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
+input:focus {
+  border-color: #2196f3;
+}
+
+/* 11. Pseudo-element selectors */
+p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+/* Table styling */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Form button */
+input[type="submit"] {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
